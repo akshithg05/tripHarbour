@@ -66,6 +66,18 @@ Before using the API, you need to set the variables in Postman depending on your
 - {{password}} with your user password as value.
 ```
 
+Check [TripHarbour API Documentation](https://documenter.getpostman.com/view/28453867/2sAYkAQ2Wx) for more info.
+
+<b> API Features: </b>
+
+Tours List 👉🏻 https://tripharbour.onrender.com/api/v1/tours 
+
+Tours State 👉🏻 https://tripharbour.onrender.com//api/v1/tours/tour-stats
+
+Get Top 5 Cheap Tours 👉🏻 https://tripharbour.onrender.com//api/v1/tours/top-5-cheap
+
+Get Tours Within Radius 👉🏻 https://tripharbour.onrender.com//api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
+
 ## ⚙️ Running Locally
 
 ```bash
