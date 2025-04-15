@@ -8,6 +8,10 @@ The API also supports secure user authentication, profile management, and passwo
 
 🌐 [Visit TripHarbour](https://tripharbour.onrender.com/)
 
+## 📚 API Documentation
+
+📘 [View Full API Docs](https://documenter.getpostman.com/view/28453867/2sAYkAQ2Wx)
+
 ## ✨ Features
 
 - 🔐 JWT-based Authentication (Login, Signup, Logout)
