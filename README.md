@@ -42,7 +42,8 @@ cd tripharbour
 # Install dependencies
 npm install
 
-# Add environment variables to .env (see config.env.example)
+# Add environment variables to config.env (see config.env.example)
+# Create config.env and add the required environment variables
 
 # Run the app
 node server.js
