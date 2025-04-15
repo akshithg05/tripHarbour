@@ -78,18 +78,41 @@ Get Top 5 Cheap Tours 👉🏻 https://tripharbour.onrender.com//api/v1/tours/to
 
 Get Tours Within Radius 👉🏻 https://tripharbour.onrender.com//api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
 
-## ⚙️ Running Locally
+## 📚 What I Learned
 
-```bash
-# Clone the repo
-git clone https://github.com/akshithg05/tripharbour.git
-cd tripharbour
+This project served as a comprehensive journey through full-stack web development. Below are some of the key concepts and technologies I explored and implemented:
 
-# Install dependencies
-npm install
+### 🛠️ Advanced MongoDB & Mongoose
+- Designed and built scalable NoSQL data models using Mongoose.
+- Implemented complex query middleware, aggregation pipelines, and advanced filtering/sorting using query strings.
+- Practiced parent-child referencing to create relationships between collections.
 
-# Add environment variables to config.env (see config.env.example)
-# Create config.env and add the required environment variables
+### 🔗 Virtual Population
+- Learned how to relate documents using Mongoose **virtual populate**.
+- For example, each tour displays its associated reviews without embedding them in the database, keeping the data model normalized and efficient.
 
-# Run the app
-node server.js
+### 🌐 RESTful API Design
+- Built a fully functional RESTful API with complete CRUD functionality.
+- Incorporated features like pagination, rate limiting, and parameter sanitization.
+- Modularized route handling and controller logic for scalability and clarity.
+
+### 🔐 JWT Authentication & Authorization
+- Implemented secure user authentication using **JSON Web Tokens (JWT)**.
+- Managed access control through role-based permissions.
+- Stored JWTs in HTTP-only cookies for added security, and created middleware to protect sensitive routes.
+
+### ⚠️ Robust Error Handling
+- Distinguished between **operational** and **programming** errors.
+- Built a global error-handling middleware to return clear messages for users and detailed logs for developers.
+- Used a centralized `AppError` utility class and custom error types.
+
+### 💳 Stripe Payment Integration
+- Integrated Stripe Checkout to handle real-time payments securely.
+- Created dynamic checkout sessions and processed webhooks for booking confirmations.
+
+### 🖥️ Server-Side Rendering with Pug
+- Built dynamic, SEO-optimized pages using **Pug templates** and **server-side rendering (SSR)**.
+- Used **Parcel** as a bundler to manage and compile front-end assets efficiently.
+![image](https://github.com/user-attachments/assets/aecf0e4c-c498-42dd-b4d0-323fdef687bf)
+
+
