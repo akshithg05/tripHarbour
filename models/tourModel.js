@@ -205,10 +205,10 @@ tourSchema.pre(/^find/, function (next) {
 // });
 
 // Post find hook
-tourSchema.post(/^find/, function (docs, next) {
-  console.log(`Query took ${Date.now() - this.start} milliseconds`);
-  next();
-}); // docs returned from the query
+// tourSchema.post(/^find/, function (docs, next) {
+//   console.log(`Query took ${Date.now() - this.start} milliseconds`);
+//   next();
+// }); // docs returned from the query
 
 // // AGGREGATION MIDDLEWARE
 // // This will run before an aggregation is executed

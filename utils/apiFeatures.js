@@ -7,7 +7,6 @@ class APIFeatures {
   // Api Feature for filtering
   filter() {
     const queryObject = { ...this.queryString };
-    console.log(queryObject);
     const excludedFields = ['page', 'sort', 'limit', 'fields'];
     excludedFields.forEach((el) => delete queryObject[el]);
 
