@@ -32,7 +32,7 @@ The API also supports secure user authentication, profile management, and passwo
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/tripharbour.git
+git clone https://github.com/akshithg05/tripharbour.git
 cd tripharbour
 
 # Install dependencies
