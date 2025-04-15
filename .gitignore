@@ -1,0 +1,5 @@
+node_modules
+bkp
+.cache
+*.env
+notes.txt
